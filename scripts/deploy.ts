@@ -12,7 +12,6 @@ async function main() {
     console.log('SimpleStorage has address', simpleStorage.address);
   }
   
-  // Appelez la fonction main pour démarrer le déploiement
   main()
     .then(() => process.exit(0))
     .catch(error => {
